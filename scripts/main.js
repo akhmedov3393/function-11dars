@@ -1,5 +1,3 @@
-
-
 // function factorial(num) {
 //  if(num===0 || num===1)  return 1;
 //  return num * factorial(num - 1);
@@ -65,3 +63,34 @@
 // console.log('ishlidganlar boradiganlar:',ishchilar);
 
 // filterByAge(humans);
+
+
+
+
+
+// EKUB ni aniqlash
+// function EKUB(a, b) {
+//   let arr = [];
+//   let array = [];
+//   let c = 0;
+//   let mas = [];
+//   for (let index = 1; index <= a; index++) {
+//     if (a % index == 0) {
+//       arr.push(index);
+//     }
+//   }
+//   for (let index = 1; index <= b; index++) {
+//     if (b % index == 0) {
+//       array.push(index);
+//     }
+//   }
+//   for (let i = 0; i < arr.length; i++) {
+//     if (array.includes(arr[i])) {
+//       mas.push(arr[i]);
+//     }
+//   }
+//   c = Math.max(...mas);
+//   console.log("a va b ning EKUBi:", c);
+// }
+
+// EKUB(prompt('a ni kiriting'), prompt('b ni kiriting'));
